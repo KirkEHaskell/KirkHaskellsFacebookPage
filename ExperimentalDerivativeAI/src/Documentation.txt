@@ -1,0 +1,31 @@
+OVERVIEW
+
+The AI class is part of a Java project that implements artificial neural networks.
+These networks are designed for machine learning and can be used for various tasks, such as
+pattern recognition, classification, and function approximation. The project creates an AI data type
+wich can be trained itteratively to learn a set of data
+
+
+Methods:
+
+AI(int rows, int columns, int nets): Constructor for creating an instance of the AI class.
+
+setLearningSet(List<List<Double>> newInputSet, List<List<Double>> newOutputSet, int sets): Set the input and output sets for training.
+
+learnRandomly(int generations, double mutationFactor): Train the neural networks randomly for a specified number of generations.
+
+calculateGrades(): Calculate the performance grades of each neural network based on the training data.
+
+findBestGrade(): Identify the best-performing neural network.
+
+randomizeNetworks(double mutationFactor): Introduce random mutations to the neural networks.
+
+setToBestAI(): Set all other neural networks to the configuration of the best-performing network.
+
+learnBimodaly(int generations, double mutationAmount): Train the networks using a bimodal learning approach.
+
+useAI(List<Double> inputs): Use the best-performing neural network to make predictions.
+
+setAllFunctions(String newFunction): Set activation functions for all networks.
+
+setColumnFunctions(String newFunction, int column): Set activation functions for specific columns in all networks.
